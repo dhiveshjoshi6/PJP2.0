@@ -1,0 +1,16 @@
+
+/Users/adityaatri/.m2/repository
+antlr						commons-cli				dom4j				org
+aopalliance					commons-codec			doxia				oro
+asm							commons-collections		io					plexus
+avalon-framework			commons-configuration	javax				sslext
+backport-util-concurrent	commons-digester		jdom				training
+cglib						commons-httpclient		jline				xerces
+ch							commons-io				jtidy				xml-apis
+classworlds					commons-lang			junit				xmlenc
+com							commons-logging			log4j				xmlpull
+commons-beanutils			commons-net				logkit				xmlunit
+commons-chain				commons-validator		net				xpp3
+MacBook-Air:first-maven-project adityaatri$ 
+
+

@@ -1,0 +1,58 @@
+
+=======================================================
+Prevent maven from downloading dependencies every time 
+=======================================================
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.sapientPJP2.week2:first-maven-project >--------------
+[INFO] Building first-maven-project 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ first-maven-project ---
+[INFO] Deleting /Users/adityaatri/eclipse-workspace/first-maven-project/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ first-maven-project ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ first-maven-project ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /Users/adityaatri/eclipse-workspace/first-maven-project/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ first-maven-project ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ first-maven-project ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /Users/adityaatri/eclipse-workspace/first-maven-project/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ first-maven-project ---
+[INFO] Surefire report directory: /Users/adityaatri/eclipse-workspace/first-maven-project/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.sapientPJP2.week2.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ first-maven-project ---
+[INFO] Building jar: /Users/adityaatri/eclipse-workspace/first-maven-project/target/first-maven-project-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ first-maven-project ---
+[INFO] Installing /Users/adityaatri/eclipse-workspace/first-maven-project/target/first-maven-project-0.0.1-SNAPSHOT.jar to /Users/adityaatri/.m2/repository/com/sapientPJP2/week2/first-maven-project/0.0.1-SNAPSHOT/first-maven-project-0.0.1-SNAPSHOT.jar
+[INFO] Installing /Users/adityaatri/eclipse-workspace/first-maven-project/pom.xml to /Users/adityaatri/.m2/repository/com/sapientPJP2/week2/first-maven-project/0.0.1-SNAPSHOT/first-maven-project-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.999 s
+[INFO] Finished at: 2020-08-22T13:26:35+05:30
+[INFO] ------------------------------------------------------------------------
+MacBook-Air:first-maven-project adityaatri$ 
